@@ -1,0 +1,31 @@
+dev-util/cscope emacs
+dev-vcs/git subversion emacs
+dev-vcs/subversion -dso perl emacs apache2 python ruby
+
+# editor
+app-editors/emacs Xaw3d dbus gconf gif gpm gtk gzip-el hesiod jpeg motif png svg tiff xft xpm
+
+# Package
+app-portage/eix sqlite doc
+app-portage/layman git subversion
+
+# haskell(GHC)
+dev-lang/ghc doc -llvm
+
+##############
+# Db
+##############
+dev-db/mysql -profiling -cluster -big-tables
+dev-db/postgresql-base doc
+dev-db/postgresql-server doc perl python
+
+##############
+# Develop
+#############
+sys-devel/gcc doc
+
+##############
+# pandoc
+##############
+app-text/pandoc doc
+
