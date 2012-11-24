@@ -30,8 +30,8 @@ localhost ~ # emerge -pv glibc
 localhost ~ # ebuild /var/lib/layman/haskell/dev-lang/ghc/ghc-7.6.1.ebuild merge
 
 ■　haddockをインストール
-localhost ~ # emerge -pv dev-haskell/xhtml(dev-haskell/xhtml-3000.2.0.1)
-localhost ~ # emerge -pv dev-haskell/ghc-paths(dev-haskell/ghc-paths-0.1.0.8)
+localhost ~ # emerge dev-haskell/xhtml(dev-haskell/xhtml-3000.2.0.1)
+localhost ~ # emerge dev-haskell/ghc-paths(dev-haskell/ghc-paths-0.1.0.8)
 localhost ~ # ebuild /var/lib/layman/haskell/dev-haskell/haddock/haddock-2.13.1.ebuild merge
 ※　依存関係がebuildで解決出来ないパッケージを直接インストール
 
@@ -46,8 +46,8 @@ localhost ~ # emerge test-framework-quickcheck2(dev-haskell/test-framework-quick
 localhost ~ # emerge hjsmin(dev-haskell/hjsmin-0.1.3)
 
 ■　不足パッケージインストール
-localhost ~ # emerge -pv persistent-postgresql(dev-haskell/persistent-postgresql-1.0.0)
-localhost ~ # emerge -pv yesod-static(dev-haskell/yesod-static-1.1.1.1)
+localhost ~ # emerge persistent-postgresql(dev-haskell/persistent-postgresql-1.0.0)
+localhost ~ # emerge yesod-static(dev-haskell/yesod-static-1.1.1.1)
 
 ■　PostgreSQLのインストール、起動
 localhost ~ # emerge dev-db/postgresql-server
